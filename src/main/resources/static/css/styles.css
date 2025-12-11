@@ -1,0 +1,117 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, blueviolet, #3c1f70);
+    margin: 0;
+    padding: 20px;
+    color: aliceblue;
+    min-height: 100vh;
+}
+
+.contenedor {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+h1{
+    color: lightskyblue;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h2,h3{
+    color: lightpink;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 6px 0;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+ul li {
+    margin-bottom: 6px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 8px 14px;
+    background-color: rgba(135, 206, 250, 0.2);
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: rgba(135, 206, 250, 0.35);
+}
+
+.autor{
+    color:aliceblue;
+    font-weight: bold;
+}
+
+.libro{
+    color:aliceblue;
+    font-weight: bold;
+}
+
+.error{
+    color: greenyellow;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+form {
+    margin-top: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: bold;
+    color: lightpink;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 6px 8px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: none;
+    background-color: lightskyblue;
+    color: lavenderblush;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: lightcoral;
+}
